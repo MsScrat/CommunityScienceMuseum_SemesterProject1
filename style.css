@@ -1,0 +1,65 @@
+/* GLOBAL STYLES */
+
+body {
+    background: url(images/landing-page_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+h1 {
+    font-family: "Cinzel", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav, 
+#hamburger-bar {
+    display: none;
+}
+
+nav {
+    position: absolute;
+    background-color: #9DFFB7;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    display: block;
+    padding: 5px 10px;
+}
+
+#hamburger-bar:checked ~ nav {
+    display: block;
+}
+
+.logo {
+    font-family: "Cinzel", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+/* LANDING PAGE */
+
+.main_landing-page {
+    text-align: center;
+}
+
+.opening_hours {
+    display: none;
+}
+
+.explore_button {
+    text-decoration: none;
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color: #9DFFB7;
+    padding: 10px 50px;
+    border-radius: 50px;
+}

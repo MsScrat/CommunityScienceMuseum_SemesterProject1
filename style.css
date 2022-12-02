@@ -1,14 +1,17 @@
+/*---------------------------------------------------------------*/
 /* GLOBAL STYLES */
 
 body {
     margin: 0;
     background-color: #38383A;
     color: white;
+    font-family: "Roboto Serif", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1,
 h2,
-h3 {
+h3,
+.location_address {
     font-family: "Cinzel", Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -77,15 +80,33 @@ footer a {
     gap: 7px;
 }
 
+.sections {
+    text-align: center;
+    padding: 0px 15px;
+}
+
+.images {
+    width: 100%;
+    border: solid #9DFFB7;
+}
+/*---------------------------------------------------------------*/
+
 
 /* LANDING PAGE */
 
 .background_image {
-    background-image: url(images/landing-page_background.jpg);
+    background: url(images/landing-page_background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
     height: 100vh;
+}
+
+.landing-page_content {
+    margin-top: 20%;
+}
+
+.landing-page_h1 {
+    padding: 0 50% 5% 5%
 }
 
 .opening_hours {
@@ -102,9 +123,9 @@ footer a {
 }
 
 
-/* EXPLORE */
+/* EXPLORE PAGE */
 
-.explore_header {
+.explore_headers {
     width: 100%;
     border-top: solid #9DFFB7;
     border-bottom: solid #9DFFB7;
@@ -117,18 +138,34 @@ footer a {
     border: solid #9DFFB7;
 }
 
-.explore_text {
-    text-align: center;
-    padding: 0 15px;
-}
-
 .explore_earth {
     margin-bottom: 30px;
 }
 
 .lego_images {
-    width: 60%;
+    width: 80%;
     height: 150px;
     object-fit: cover;
     margin: 5px 0;
+}
+
+
+/* VISIT PAGE */
+
+.program_text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5px;
+    font-size: 20px;
+}
+
+
+/* ABOUT PAGE */
+
+.about_image {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    object-fit: cover;
 }

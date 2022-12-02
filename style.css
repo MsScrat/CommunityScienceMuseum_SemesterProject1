@@ -82,7 +82,7 @@ footer a {
 
 .sections {
     text-align: center;
-    padding: 0px 15px;
+    padding: 10px 20px 80px 20px;
 }
 
 .images {
@@ -168,4 +168,41 @@ footer a {
     height: 270px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+
+/* CONTACT PAGE */
+
+.contact_form,
+.contact_form_message,
+.contact_form_submit {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_form input {
+    border-radius: 10px;
+    height: 35px;
+    width: 70%;
+    margin: 5px auto 15px auto;
+}
+
+.contact_form_message textarea {
+    border: solid #9DFFB7 5px;
+    border-radius: 10px;
+    height: 200px;
+    width: 70%;
+    margin: 5px auto 15px auto;
+}
+
+.contact_form_submit input {
+    background-color: #9DFFB7;
+    color: black;
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    width: 40%;
+    height: 40px;
+    margin: 5px auto 10px auto;
 }

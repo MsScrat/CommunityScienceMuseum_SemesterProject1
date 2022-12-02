@@ -6,7 +6,9 @@ body {
     color: white;
 }
 
-h1 {
+h1,
+h2,
+h3 {
     font-family: "Cinzel", Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -36,7 +38,7 @@ nav a {
     text-decoration: none;
     font-family: "Cinzel", Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 header {
@@ -46,6 +48,35 @@ header {
     justify-content: space-between;
     padding: 10px 20px;
 }
+
+footer {
+    background-color: #9DFFB7;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo_footer {
+    font-family: "Cinzel", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.footer_text {
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer_social {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
 
 /* LANDING PAGE */
 
@@ -73,19 +104,31 @@ header {
 
 /* EXPLORE */
 
-.header_robot {
+.explore_header {
     width: 100%;
     border-top: solid #9DFFB7;
     border-bottom: solid #9DFFB7;
 }
 
 .explore_images {
-    width: 75%;
+    width: 70%;
+    height: 200px;
+    object-fit: cover;
     border: solid #9DFFB7;
-    margin: 0 auto;
 }
 
-.robot {
+.explore_text {
     text-align: center;
     padding: 0 15px;
+}
+
+.explore_earth {
+    margin-bottom: 30px;
+}
+
+.lego_images {
+    width: 60%;
+    height: 150px;
+    object-fit: cover;
+    margin: 5px 0;
 }

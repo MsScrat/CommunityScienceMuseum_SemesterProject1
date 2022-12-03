@@ -135,6 +135,7 @@ footer a {
     background-color: #9DFFB7;
     padding: 10px 50px;
     border-radius: 50px;
+    margin-left: 5%;
 }
 
 
@@ -151,10 +152,6 @@ footer a {
     height: 200px;
     object-fit: cover;
     border: solid #9DFFB7;
-}
-
-.explore_earth {
-    margin-bottom: 30px;
 }
 
 .lego_images {

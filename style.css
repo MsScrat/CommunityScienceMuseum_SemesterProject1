@@ -1,4 +1,5 @@
 /*---------------------------------------------------------------*/
+
 /* GLOBAL STYLES */
 
 main {
@@ -96,6 +97,14 @@ footer a {
     gap: 7px;
 }
 
+.footer_section {
+    margin-top: 15px;
+}
+
+.footer_section h3 {
+    margin-bottom: 10px;
+}
+
 .sections {
     text-align: center;
     padding: 5px 20px 5px 20px;
@@ -105,6 +114,7 @@ footer a {
     width: 100%;
     border: solid #9DFFB7;
 }
+
 /*---------------------------------------------------------------*/
 
 
@@ -261,4 +271,20 @@ footer a {
 
 .school_ticket {
     background-color: #FFFE81;
+}
+
+
+/* SHOP PAGE */
+
+.shop {
+    color: black;
+}
+
+.shop img {
+    width: 100%;
+    height: 200px;
+}
+
+.shop_category {
+    background-color: #9DFFB7;
 }

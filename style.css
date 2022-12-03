@@ -17,6 +17,7 @@ h2,
 h3,
 .location_address {
     font-family: "Cinzel", Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5px;
 }
 
 nav, 
@@ -97,7 +98,7 @@ footer a {
 
 .sections {
     text-align: center;
-    padding: 10px 20px 50px 20px;
+    padding: 5px 20px 5px 20px;
 }
 
 .images {
@@ -152,6 +153,7 @@ footer a {
     height: 200px;
     object-fit: cover;
     border: solid #9DFFB7;
+    margin-bottom: 15px;
 }
 
 .lego_images {

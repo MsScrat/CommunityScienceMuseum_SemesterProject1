@@ -60,7 +60,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40%;
+    gap: 50%;
     padding: 10px 0;
     font-size: 23px;
 }
@@ -94,11 +94,11 @@ footer a {
 .footer_social {
     display: flex;
     flex-direction: column;
-    gap: 7px;
+    gap: 15px;
 }
 
 .footer_section {
-    margin-top: 15px;
+    margin-top: 40px;
 }
 
 .footer_section h3 {
@@ -115,24 +115,31 @@ footer a {
     border: solid #9DFFB7;
 }
 
+.active {
+    font-weight: bold;
+}
+
 /*---------------------------------------------------------------*/
 
 
 /* LANDING PAGE */
 
 .background_image {
-    background: url(images/landing-page_background.jpg);
+    background: url(images/landing-page_background_small.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
 .landing-page_content {
-    margin-top: 20%;
+    text-align: center;
+    width: 50%;
+    float: right;
+    margin: 15% 10% 0% 0%;
 }
 
 .landing-page_h1 {
-    padding: 0 50% 5% 5%
+    margin-bottom: 50px;
 }
 
 .opening_hours {
@@ -146,7 +153,6 @@ footer a {
     background-color: #9DFFB7;
     padding: 10px 50px;
     border-radius: 50px;
-    margin-left: 5%;
 }
 
 
@@ -182,6 +188,29 @@ footer a {
     justify-content: space-between;
     padding: 0px 5px;
     font-size: 20px;
+}
+
+
+/* SHOP PAGE */
+
+.shop {
+    color: black;
+}
+
+.shop img {
+    width: 100%;
+    height: 200px;
+}
+
+.shop h2 {
+    padding: 0px 5px;
+}
+
+.shop_category {
+    background-color: #9DFFB7;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    height: 100px;
 }
 
 
@@ -273,18 +302,133 @@ footer a {
     background-color: #FFFE81;
 }
 
+/*---------------------------------------------------------------*/
 
-/* SHOP PAGE */
 
-.shop {
-    color: black;
-}
+/* MEDIA QUERIES */
 
-.shop img {
-    width: 100%;
-    height: 200px;
-}
+/* MEDIA QUERIES Tablet */
 
-.shop_category {
-    background-color: #9DFFB7;
+@media (min-width: 600px) {
+
+    main {
+        padding-top: 170px;
+    }
+
+    body {
+        font-size: 25px;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    header {
+        position: fixed;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 60%;
+        padding: 10px 0;
+        font-size: 40px;
+    }
+
+    nav {
+        font-size: 30px;
+        top: 160px;
+    }
+
+    .logo {
+        font-size: 35px;
+    }
+
+    .images {
+        border-width: 5px;
+    }
+
+    .logo_footer {
+        font-size: 35px;
+    }
+
+
+    /* LANDING PAGE*/
+
+    .background_image {
+        background: url(images/landing-page_background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: -380px;
+        height: 100vh;
+    }
+
+    .landing-page_content {
+        font-size: 35px;
+        margin: 15% 10% 0% 0%;
+    }
+
+    .explore_button {
+        padding: 20px 100px;
+    }
+
+
+    /* EXPLORE PAGE */
+
+    .explore_headers {
+        border-width: 7px;
+    }
+
+    .explore_images {
+        border-width: 7px;
+        height: 400px;
+        width: 500px;
+        margin-bottom: 20px;
+    }
+
+    .lego_images {
+        height: 250px;
+        width: 300px;
+        margin: 0;
+        padding: 10px;
+    }
+
+
+    /* VISIT PAGE */
+
+    .program_images {
+        height: 250px;
+        width: 325px;
+    }
+
+    .program {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .program_text {
+        font-size: 30px;
+        padding: 0;
+    }
+
+    .location_image {
+        height: 300px;
+        width: 600px;
+    }
+
+    /* SHOP PAGE */
+
+
+    /* FOOTER */
+
+    .footer_content {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: left;
+    }
+
+    .footer_social {
+        gap: 25px;
+    }
+
 }

@@ -343,6 +343,10 @@ footer a {
         font-size: 35px;
     }
 
+    .sections {
+        padding: 10px 50px 10px 50px;
+    }
+
     .images {
         border-width: 5px;
     }
@@ -401,9 +405,10 @@ footer a {
     }
 
     .program {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        justify-content: center;
     }
 
     .program_text {
@@ -429,6 +434,59 @@ footer a {
 
     .footer_social {
         gap: 25px;
+    }
+
+
+    /* SHOP PAGE */
+    
+    .shop {
+        color: black;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 50px auto;
+    }
+    
+    .shop img,
+    .shop_category {
+        height: 300px;
+    }
+    
+    .shop h2 {
+        padding: 0px 5px;
+    }
+    
+    .shop_category {
+        background-color: #9DFFB7;
+        margin: 0;
+        padding: 0 10px;
+    }
+
+
+    /* ABOUT PAGE */
+
+    .about_image {
+        height: 500px;
+        width: 500px;
+    }
+
+
+    /* CONTACT PAGE */
+
+    .contact_form input {
+        height: 50px;
+    }
+
+    .contact_form_submit input {
+        font-size: 30px;
+        height: 50px;
+        margin-top: 20px;
+    }
+
+
+    /* TICKETS PAGE */
+
+    .tickets {
+        width: 70%;
     }
 
 }

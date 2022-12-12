@@ -505,7 +505,7 @@ footer a {
 
 }
 
-/* MEDIA QUERIES Desktop */
+/* MEDIA QUERIES Desktop Small */
 
 @media (min-width: 800px) {
 
@@ -559,15 +559,15 @@ footer a {
         background: url(images/landing-page_background.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position-x: -55px;
-        height: 100vh;
+        background-position-x: -50px;
+        height: 100%;
     }
 
     .landing-page_content {
         text-align: center;
         width: 50%;
         float: right;
-        margin: 3% 5% 0% 0%;
+        margin: 5% 5% 0% 0%;
     }
 
     .explore_button {
@@ -586,5 +586,15 @@ footer a {
         height: 400px;
         width: 300px;
     }
+
+}
+
+/* MEDIA QUERIES Desktop Large */
+
+@media (min-width: 1000px) {
+
+  .landing-page_content {
+    background-position-x: 0px;
+  }
 
 }

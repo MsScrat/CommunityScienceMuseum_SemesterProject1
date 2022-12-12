@@ -195,6 +195,7 @@ footer a {
 
 .shop {
     color: black;
+    margin: 30px auto;
 }
 
 .shop img {
@@ -203,13 +204,12 @@ footer a {
 }
 
 .shop h2 {
-    padding: 0px 5px;
+    padding: 20px 5px 0px 5px;
 }
 
 .shop_category {
     background-color: #9DFFB7;
     margin-top: -10px;
-    margin-bottom: 20px;
     height: 100px;
 }
 
@@ -221,6 +221,7 @@ footer a {
     height: 270px;
     border-radius: 50%;
     object-fit: cover;
+    margin-bottom: 20px;
 }
 
 
@@ -368,7 +369,7 @@ footer a {
 
     .landing-page_content {
         font-size: 35px;
-        margin: 15% 10% 0% 0%;
+        margin: 20% 5% 0% 0%;
     }
 
     .explore_button {
@@ -452,7 +453,7 @@ footer a {
     }
     
     .shop h2 {
-        padding: 0px 5px;
+        padding: 50px 5px 0px 5px;
     }
     
     .shop_category {
@@ -487,6 +488,103 @@ footer a {
 
     .tickets {
         width: 70%;
+        margin: 50px auto;
+    }
+
+    .tickets h2 {
+        font-size: 35px;
+    }
+
+    .ticket_prices {
+        font-size: 30px;
+    }
+
+    .per_person {
+        font-size: 15px;
+    }
+
+}
+
+/* MEDIA QUERIES Desktop */
+
+@media (min-width: 800px) {
+
+    main {
+        padding-top: 100px;
+    }
+
+    body {
+        font-size: 20px;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    nav {
+        display: flex;
+        background-color: #38383A;
+    }
+
+    nav a {
+        color: white;
+        font-size: 15px;
+    }
+
+    .hamburger-icon {
+        display: none;
+    }
+
+    .ticket_button_nav {
+        background-color: #9DFFB7;
+        border-radius: 20px;
+        color: black;
+    }
+
+    .opening_hours {
+        display: flex;
+        font-size: 15px;
+    }
+
+    .logo {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+
+    /* LANDING PAGE */
+
+    .background_image {
+        background: url(images/landing-page_background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: -55px;
+        height: 100vh;
+    }
+
+    .landing-page_content {
+        text-align: center;
+        width: 50%;
+        float: right;
+        margin: 3% 5% 0% 0%;
+    }
+
+    .explore_button {
+        padding: 10px 50px;
+        font-size: 15px;
+    }
+
+
+    /* EXPLORE PAGE */
+
+    .explore_content {
+        display: flex;
+    }
+
+    .explore_images {
+        height: 400px;
+        width: 300px;
     }
 
 }

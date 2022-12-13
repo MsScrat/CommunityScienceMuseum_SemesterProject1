@@ -505,12 +505,12 @@ footer a {
 
 }
 
-/* MEDIA QUERIES Desktop Small */
+/* MEDIA QUERIES Desktop */
 
 @media (min-width: 800px) {
 
     main {
-        padding-top: 100px;
+        padding-top: 120px;
     }
 
     body {
@@ -548,8 +548,12 @@ footer a {
     }
 
     .logo {
-        font-size: 20px;
+        font-size: 25px;
         margin-left: 10px;
+    }
+
+    .footer_social a:hover {
+        font-weight: bold;
     }
 
 
@@ -580,19 +584,44 @@ footer a {
 
     .explore_content {
         display: flex;
+        flex-direction: row-reverse;
+        gap: 20px;
+        align-items: center;
+        margin: 50px auto;
+        text-align: left;
+    }
+
+    .explore_VR {
+        text-align: right;
     }
 
     .explore_images {
-        height: 400px;
-        width: 300px;
+        height: 500px;
+        width: 500px;
     }
 
-}
+    .explore_headers {
+        height: 500px;
+        object-fit: cover;
+    }
 
-/* MEDIA QUERIES Desktop Large */
 
-@media (min-width: 1000px) {
+    /* FOOTER */
 
- 
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo_footer {
+        text-align: left;
+        margin-left: 100px;
+    }
+
+    .footer_content {
+        margin-right: 150px;
+        gap: 150px;
+    }
 
 }

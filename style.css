@@ -505,6 +505,7 @@ footer a {
 
 }
 
+
 /* MEDIA QUERIES Desktop */
 
 @media (min-width: 800px) {
@@ -518,8 +519,7 @@ footer a {
     }
 
     header {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
     }
 
     nav {
@@ -570,12 +570,12 @@ footer a {
         text-align: center;
         width: 50%;
         float: right;
-        margin: 5% 5% 0% 0%;
+        margin: 10% 0% 0% 0%;
     }
 
     .explore_button {
-        padding: 10px 50px;
-        font-size: 15px;
+        padding: 15px 70px;
+        font-size: 20px;
     }
 
 
@@ -600,7 +600,7 @@ footer a {
     }
 
     .explore_headers {
-        height: 500px;
+        height: 600px;
         object-fit: cover;
     }
 
@@ -621,6 +621,56 @@ footer a {
     .footer_content {
         margin-right: 150px;
         gap: 150px;
+    }
+
+
+    /* VISIT PAGE */
+
+    .main_visit {
+        display: flex;
+    }
+
+    .program_images {
+        height: 150px;
+        width: 200px;
+    }
+
+    .program_text {
+        font-size: 15px;
+    }
+
+    .location_image {
+        height: 200px;
+        width: 400px;
+    }
+
+    .location {
+        text-align: right;
+    }
+
+
+    /* SHOP PAGE */
+
+    .shop_category h2 {
+        margin-top: 50px;
+    }
+
+
+    /* CONTACT */
+
+    .contact_divider {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .contact_form {
+        width: 500px;
+    }
+
+    .contact_form_message textarea {
+        width: 500px;
+        height: 350px;
     }
 
 }

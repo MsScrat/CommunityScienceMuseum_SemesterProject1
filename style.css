@@ -54,13 +54,17 @@ nav a {
     font-size: 20px;
 }
 
+.logo p {
+    margin: 0;
+}
+
 header {
     position: fixed;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50%;
+    gap: 53%;
     padding: 10px 0;
     font-size: 23px;
 }
@@ -341,10 +345,6 @@ footer a {
         top: 160px;
     }
 
-    nav a:hover {
-        font-weight: bold;
-    }
-
     .logo {
         font-size: 35px;
     }
@@ -526,17 +526,26 @@ footer a {
 
     header {
         display: flex;
-        gap: 70%
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
     }
 
     nav {
         display: flex;
-        background-color: #38383A;
+        width: auto;
+        background-color: transparent;
+        top: 100px;
+
     }
 
     nav a {
         color: white;
         font-size: 15px;
+    }
+
+    nav a:hover {
+        border-bottom: solid 2px white;
     }
 
     .hamburger-icon {
@@ -549,6 +558,12 @@ footer a {
         color: black;
     }
 
+    .ticket_button_nav:hover {
+        background-color: transparent;
+        border: solid 2px #9DFFB7;
+        color: white;
+    }
+
     .opening_hours {
         display: flex;
         font-size: 15px;
@@ -556,7 +571,6 @@ footer a {
 
     .logo {
         font-size: 25px;
-        margin-left: 10px;
     }
 
     .footer_social a:hover {

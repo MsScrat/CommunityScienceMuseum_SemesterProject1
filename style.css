@@ -157,7 +157,7 @@ footer a {
     color: black;
     background-color: #9DFFB7;
     padding: 10px 50px;
-    border-radius: 50px;
+    border-radius: 15px;
 }
 
 
@@ -550,18 +550,6 @@ footer a {
 
     .hamburger-icon {
         display: none;
-    }
-
-    .ticket_button_nav {
-        background-color: #9DFFB7;
-        border-radius: 20px;
-        color: black;
-    }
-
-    .ticket_button_nav:hover {
-        background-color: transparent;
-        border: solid 2px #9DFFB7;
-        color: white;
     }
 
     .opening_hours {

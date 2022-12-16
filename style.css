@@ -532,6 +532,7 @@ footer a {
     }
 
     nav {
+        position: static;
         display: flex;
         width: auto;
         background-color: transparent;

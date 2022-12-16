@@ -121,6 +121,7 @@ footer a {
 
 .active {
     font-weight: bold;
+    color: #9DFFB7;
 }
 
 /*---------------------------------------------------------------*/
@@ -527,16 +528,15 @@ footer a {
     header {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        padding: 0;
+        justify-content: center;
+        gap: 70%;
     }
 
     nav {
-        position: static;
         display: flex;
         width: auto;
         background-color: transparent;
-        top: 100px;
+        top: 80px;
 
     }
 
@@ -546,7 +546,7 @@ footer a {
     }
 
     nav a:hover {
-        border-bottom: solid 2px white;
+        font-weight: bold;
     }
 
     .hamburger-icon {
@@ -589,7 +589,7 @@ footer a {
     }
 
     .explore_button:hover {
-       font-weight: bold;
+       color: white;
     }
 
 

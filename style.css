@@ -471,6 +471,10 @@ footer a {
         margin: 50px auto;
     }
     
+    .shop img {
+        object-fit: cover;
+    }
+
     .shop img,
     .shop_category {
         height: 300px;
@@ -715,7 +719,26 @@ footer a {
     /* SHOP PAGE */
 
     .shop_category h2 {
-        margin-top: 50px;
+        margin-top: -20px;
+    }
+
+    .shop {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .shop:hover {
+        color: white;
+    }
+
+    .shop_category {
+        height: 100px;
+    }
+
+    .shop img {
+        object-fit: cover;
+        height: 300px;
     }
 
 

@@ -3,7 +3,7 @@
 /* GLOBAL STYLES */
 
 main {
-    padding-top: 105px;
+    padding-top: 80px;
 }
 
 body {
@@ -30,7 +30,7 @@ nav {
     position: absolute;
     background-color: #9DFFB7;
     right: 0px;
-    top: 100px;
+    top: 80px;
     width: 100%;
     font-size: 15px;
 }
@@ -55,7 +55,7 @@ nav a {
 }
 
 .logo p {
-    margin: 0;
+    margin: -5px;
 }
 
 header {
@@ -121,7 +121,6 @@ footer a {
 
 .active {
     font-weight: bold;
-    color: #9DFFB7;
 }
 
 /*---------------------------------------------------------------*/
@@ -194,6 +193,10 @@ footer a {
     justify-content: space-between;
     padding: 0px 5px;
     font-size: 20px;
+}
+
+.location_image {
+    height: 150px;
 }
 
 
@@ -287,13 +290,18 @@ footer a {
 
 .tickets h2 {
     font-size: 20px;
-    margin: 0 auto;
+    margin: 0 auto 10px auto;
 }
 
 .ticket_prices {
     font-size: 20px;
     display: flex;
     justify-content: space-evenly;
+}
+
+.ticket_prices a {
+    text-decoration: none;
+    color: black;
 }
 
 .per_person {
@@ -309,6 +317,7 @@ footer a {
     background-color: #FFFE81;
 }
 
+
 /*---------------------------------------------------------------*/
 
 
@@ -319,7 +328,7 @@ footer a {
 @media (min-width: 600px) {
 
     main {
-        padding-top: 170px;
+        padding-top: 150px;
     }
 
     body {
@@ -343,7 +352,7 @@ footer a {
 
     nav {
         font-size: 30px;
-        top: 160px;
+        top: 140px;
     }
 
     .logo {
@@ -402,6 +411,14 @@ footer a {
         width: 300px;
         margin: 0;
         padding: 10px;
+    }
+
+    .lego_header {
+        margin-bottom: 10px;
+    }
+
+    .lego_text {
+        margin-top: 0px;
     }
 
 
@@ -494,12 +511,14 @@ footer a {
     /* TICKETS PAGE */
 
     .tickets {
-        width: 70%;
+        height: 500px;
+        width: 80%;
         margin: 50px auto;
     }
 
     .tickets h2 {
         font-size: 35px;
+        margin-top: 20px;
     }
 
     .ticket_prices {
@@ -526,8 +545,8 @@ footer a {
     }
 
     header {
+        height: 100px;
         display: flex;
-        align-items: center;
         justify-content: center;
         gap: 70%;
     }
@@ -563,7 +582,12 @@ footer a {
     }
 
     .footer_social a:hover {
+        color: white;
+    }
+
+    .active {
         font-weight: bold;
+        color: #9DFFB7;
     }
 
 
@@ -598,14 +622,24 @@ footer a {
     .explore_content {
         display: flex;
         flex-direction: row-reverse;
-        gap: 20px;
         align-items: center;
         margin: 50px auto;
         text-align: left;
+        justify-content: space-evenly;
+    }
+
+    .explore_text {
+        width: 600px;
+    }
+
+    .lego_text {
+        width: 800px;
+        margin: -10px auto 30px auto;
     }
 
     .explore_VR {
         text-align: right;
+        flex-direction: row;
     }
 
     .explore_images {
@@ -616,6 +650,14 @@ footer a {
     .explore_headers {
         height: 600px;
         object-fit: cover;
+    }
+
+    .lego_header {
+        margin: 25px auto;
+    }
+
+    .lego_images {
+        width: 400px;
     }
 
 
@@ -642,11 +684,16 @@ footer a {
 
     .main_visit {
         display: flex;
+        justify-content: space-evenly;
+    }
+
+    .main_visit h1 {
+        margin-bottom: 20px;
     }
 
     .program_images {
         height: 150px;
-        width: 200px;
+        width: 230px;
     }
 
     .program_text {
@@ -655,18 +702,34 @@ footer a {
 
     .location_image {
         height: 200px;
-        width: 400px;
+        width: 500px;
     }
 
     .location {
         text-align: right;
+        width: 600px;
     }
+
 
 
     /* SHOP PAGE */
 
     .shop_category h2 {
         margin-top: 50px;
+    }
+
+
+    /* ABOUT */
+
+    .about_section {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 20px;
+    }
+
+    .about_content {
+        width: 600px;
     }
 
 
@@ -687,9 +750,42 @@ footer a {
         height: 350px;
     }
 
+    .contact_form_submit input:hover {
+        color: white;
+    }
+
 
     /* TICKETS */
 
+    .ticket_section {
+        display: flex;
+        gap: 50px;
+    }
+
+    .tickets h2,
+    .ticket_prices {
+        font-size: 25px;
+    }
+
+    .buy_tickets {
+        margin: 0;
+    }
+
+    .tickets {
+        margin-top: 20px;
+    }
+
+    .per_person {
+        font-size: 10px;
+    }
+
+    .ticket_images {
+        height: 300px;
+    }
+
+    .ticket_price:hover {
+        color: white;
+    }
 
 
 }

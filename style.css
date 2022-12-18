@@ -161,9 +161,11 @@ footer a {
 /* EXPLORE PAGE */
 
 .explore_headers {
+    height: 200px;
     width: 100%;
     border-top: solid #9DFFB7;
     border-bottom: solid #9DFFB7;
+    object-fit: cover;
 }
 
 .explore_images {
@@ -397,6 +399,7 @@ footer a {
     /* EXPLORE PAGE */
 
     .explore_headers {
+        height: 350px;
         border-width: 7px;
     }
 
@@ -653,7 +656,7 @@ footer a {
     }
 
     .explore_headers {
-        height: 600px;
+        height: 500px;
         object-fit: cover;
     }
 

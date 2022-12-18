@@ -83,9 +83,10 @@ footer a {
     color: black;
 }
 
-.logo_footer {
+.logo_footer h3 {
     font-family: "Cinzel", Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
+    margin: -5px auto;
 }
 
 .footer_text {
@@ -182,6 +183,7 @@ footer a {
     object-fit: cover;
     margin: 5px 0;
 }
+
 
 
 /* VISIT PAGE */
@@ -370,7 +372,7 @@ footer a {
         border-width: 5px;
     }
 
-    .logo_footer {
+    .logo_footer h3 {
         font-size: 35px;
     }
 

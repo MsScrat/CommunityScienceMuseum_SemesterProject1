@@ -786,6 +786,11 @@ footer a {
 
     /* TICKETS */
 
+    .ticket_section {
+        display: flex;
+        gap: 50px;
+    }
+
     .tickets h2,
     .ticket_prices {
         font-size: 25px;

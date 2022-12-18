@@ -267,6 +267,10 @@ footer a {
     margin: 5px auto 10px auto;
 }
 
+.contact_form_submit label {
+    display: none;
+}
+
 
 /* TICKETS PAGE */
 
